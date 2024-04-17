@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+:root {
+    --cor0: #485936;
+    --cor1: #8C8A87;
+    --cor2: #050A0D;
+    --cor3: #F2F2F2;
+    --cor4: #172526;
+
+    --font-padrão: 'Montserrat', helvetica, sans-serif;
+    --font-titulo:'Kode mono', helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, var(--cor2),var(--cor4));
+    background: var(--cor4) url(imagens/pexels-markus-spiske-6212801.jpg) center top;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--cor2);
+    box-shadow: 1px 1px 3px black;
+    margin: -10px;
+    box-shadow: 2px 2px 4px var(--cor2);
+}
+
+header img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: -5px;
+}
+
+header > nav > a {
+    color: rgba(255, 255, 255, 0.884);
+    text-decoration: none;
+    padding: 0px 15px 10px 0px;
+    text-shadow: 1px 1px 1px var(--cor1);
+    font-family: var(--font-padrão);
+    font-size: 16px;
+}
+
+header > nav.menu {
+    text-align: right;
+}
+
+h1.interface {
+    font-family: var(--font-titulo);
+    font-size: 3em;
+    color: var(--cor3);
+    margin: 100px 0px 0px 100px;
+}
+
+main h1 {
+    color: var(--cor3);
+    font-size: 2.5em;
+    font-family: var(--font-titulo);
+    text-shadow: 1px 1px 3px var(--cor2);
+}
+
+h1 > b {
+    color: aqua;
+}
+
+main > h2 {
+    font-family: var(--font-titulo);
+    font-size: 2em;
+    color: var(--cor3);
+    margin: 30px 0px 0px 100px;
+    text-shadow: 1px 1px 3px var(--cor2); 
+}
+
+h2 > b {
+    color: aqua;
+}
+
+img.face{
+    float: right;
+    margin: -20px 200px 0px 0px;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    border: 3px solid var(--cor1);
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content:  center;
+    padding: 20px 500px 0px 0px;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+    background-color: var(--cor3);
+    border-radius: 50%;
+    border: 5px solid var(--cor3);
+}
+
+
+footer a {
+    margin: 20px;
+}
+
+footer p {
+    margin-top: 2px;
+}
