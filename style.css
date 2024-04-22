@@ -1,10 +1,10 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* FONTE DAS LETRAS */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
-:root {
+:root { /* COR DO SITE / FONTE DO SITE*/
     --cor0: #485936;
     --cor1: #8C8A87;
     --cor2: #050A0D;
@@ -25,7 +25,7 @@ body {
     background: var(--cor4) url(imagens/pexels-markus-spiske-6212801.jpg) center top;
 }
 
-header {
+header { /* CABEÇALHO */
     padding: 20px;
     background-color: var(--cor2);
     box-shadow: 1px 1px 3px black;
@@ -33,14 +33,14 @@ header {
     box-shadow: 2px 2px 4px var(--cor2);
 }
 
-header img {
+header img { /* IMAGEM DO CABEÇALHO */
     border-radius: 50%;
     width: 90px;
     height: 90px;
     margin: -5px;
 }
 
-header > nav > a {
+header > nav > a { /* LINKS DO CABEÇALHO */
     color: rgba(255, 255, 255, 0.884);
     text-decoration: none;
     padding: 0px 15px 10px 0px;
@@ -53,14 +53,14 @@ header > nav.menu {
     text-align: right;
 }
 
-h1.interface {
+h1.interface { /* TITULO H1 */
     font-family: var(--font-titulo);
     font-size: 3em;
     color: var(--cor3);
     margin: auto;
 }
 
-main {
+main { /* CONTEUDO DO SITE*/
     padding: 50px;
     margin: auto;
     min-width: 300px;
@@ -79,7 +79,7 @@ h1 > b {
     color: aqua;
 }
 
-main > h2 {
+main > h2 { /* TITULO H2 */
     font-family: var(--font-titulo);
     font-size: 2.3em;
     color: var(--cor3);
@@ -92,19 +92,19 @@ h2 > b {
     color: aqua;
 }
 
-img.face{
+img.face{ /* IMAGEM DO CONTEUDO */
     display: block;
     float: right;
     border-radius: 50%;
     border: 3px solid var(--cor1);
 }
 
-footer {
+footer { /* RODAPÉ */
     display: flex;
     justify-content: center;
 }
 
-footer img {
+footer img { /* IMAGEM DOS LINKS */
     width: 35px;
     height: 35px;
     background-color: var(--cor3);
