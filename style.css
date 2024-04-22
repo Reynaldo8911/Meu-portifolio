@@ -15,6 +15,11 @@
     --font-titulo:'Kode mono', helvetica, sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-image: linear-gradient(to left, var(--cor2),var(--cor4));
     background: var(--cor4) url(imagens/pexels-markus-spiske-6212801.jpg) center top;
@@ -52,46 +57,51 @@ h1.interface {
     font-family: var(--font-titulo);
     font-size: 3em;
     color: var(--cor3);
-    margin: 100px 0px 0px 100px;
+    margin: auto;
+}
+
+main {
+    padding: 50px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 main h1 {
     color: var(--cor3);
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: var(--font-titulo);
     text-shadow: 1px 1px 3px var(--cor2);
 }
 
 h1 > b {
+    text-shadow: 2px 2px 4px var(--cor2);
     color: aqua;
 }
 
 main > h2 {
     font-family: var(--font-titulo);
-    font-size: 2em;
+    font-size: 2.3em;
     color: var(--cor3);
-    margin: 30px 0px 0px 100px;
+    padding: 20px 0px 0px 0px;
     text-shadow: 1px 1px 3px var(--cor2); 
 }
 
 h2 > b {
+    text-shadow: 2px 2px 4px var(--cor2);
     color: aqua;
 }
 
 img.face{
+    display: block;
     float: right;
-    margin: -20px 200px 0px 0px;
-    height: 260px;
-    width: 260px;
     border-radius: 50%;
     border: 3px solid var(--cor1);
 }
 
 footer {
     display: flex;
-    text-align: center;
-    justify-content:  center;
-    padding: 20px 500px 0px 0px;
+    justify-content: center;
 }
 
 footer img {
