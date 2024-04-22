@@ -23,6 +23,7 @@
 body {
     background-image: linear-gradient(to left, var(--cor2),var(--cor4));
     background: var(--cor4) url(imagens/pexels-markus-spiske-6212801.jpg) center top;
+    font-family: var(--font-padrão);
 }
 
 header { /* CABEÇALHO */
@@ -40,17 +41,21 @@ header img { /* IMAGEM DO CABEÇALHO */
     margin: -5px;
 }
 
-header > nav > a { /* LINKS DO CABEÇALHO */
+nav > a { /* LINKS DO CABEÇALHO */
     color: rgba(255, 255, 255, 0.884);
     text-decoration: none;
-    padding: 0px 15px 10px 0px;
-    text-shadow: 1px 1px 1px var(--cor1);
-    font-family: var(--font-padrão);
-    font-size: 16px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition-duration: 0.3s;
 }
 
-header > nav.menu {
+nav.menu {
     text-align: right;
+}
+
+nav > a:hover {
+    background-color: var(--cor1);
 }
 
 h1.interface { /* TITULO H1 */
@@ -69,7 +74,7 @@ main { /* CONTEUDO DO SITE*/
 
 main h1 {
     color: var(--cor3);
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: var(--font-titulo);
     text-shadow: 1px 1px 3px var(--cor2);
 }
@@ -81,9 +86,9 @@ h1 > b {
 
 main > h2 { /* TITULO H2 */
     font-family: var(--font-titulo);
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: var(--cor3);
-    padding: 20px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
     text-shadow: 1px 1px 3px var(--cor2); 
 }
 
@@ -102,21 +107,18 @@ img.face{ /* IMAGEM DO CONTEUDO */
 footer { /* RODAPÉ */
     display: flex;
     justify-content: center;
+    margin: -25px;
 }
 
 footer img { /* IMAGEM DOS LINKS */
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background-color: var(--cor3);
     border-radius: 50%;
-    border: 5px solid var(--cor3);
+    border: 3px solid var(--cor3);
 }
 
 
 footer a {
-    margin: 20px;
-}
-
-footer p {
-    margin-top: 2px;
+    margin: 15px;
 }
