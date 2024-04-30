@@ -26,42 +26,28 @@ body {
 }
 
 header { /* CABEÇALHO */
-    padding: 20px;
+    padding: 10px;
     background-color: var(--cor2);
-    box-shadow: 1px 1px 3px black;
-    margin: -10px;
+    box-shadow: 10px 10px 30px rgb(255, 255, 255);
     box-shadow: 2px 2px 4px var(--cor2);
 }
-
-header img { /* IMAGEM DO CABEÇALHO */
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    margin: -5px;
-}
-
 nav > a { /* LINKS DO CABEÇALHO */
     color: rgba(255, 255, 255, 0.884);
     text-decoration: none;
-    padding: 10px;
+    margin:25px;
     font-weight: 500;
     border-radius: 5px;
     transition-duration: 0.3s;
 }
 
 nav.menu {
-    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav > a:hover {
     background-color: var(--cor1);
-}
-
-h1.interface { /* TITULO H1 */
-    font-family: var(--font-titulo);
-    font-size: 3em;
-    color: var(--cor3);
-    margin: auto;
 }
 
 main { /* CONTEUDO DO SITE*/
@@ -73,7 +59,7 @@ main { /* CONTEUDO DO SITE*/
 
 main h1 {
     color: var(--cor3);
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: var(--font-titulo);
     text-shadow: 1px 1px 3px var(--cor2);
 }
@@ -85,7 +71,7 @@ h1 > b {
 
 main > h2 { /* TITULO H2 */
     font-family: var(--font-titulo);
-    font-size: 2.2em;
+    font-size: 2.5em;
     color: var(--cor3);
     padding: 15px 0px 0px 0px;
     text-shadow: 1px 1px 3px var(--cor2); 
@@ -97,16 +83,15 @@ h2 > b {
 }
 
 img.face{ /* IMAGEM DO CONTEUDO */
-    display: block;
     float: right;
     border-radius: 50%;
-    border: 3px solid var(--cor1);
+    border: 3px solid var(--cor4);
 }
 
 footer { /* RODAPÉ */
     display: flex;
     justify-content: center;
-    margin: -25px;
+    align-items: center;
 }
 
 footer img { /* IMAGEM DOS LINKS */
@@ -116,7 +101,6 @@ footer img { /* IMAGEM DOS LINKS */
     border-radius: 50%;
     border: 3px solid var(--cor3);
 }
-
 
 footer a {
     margin: 10px;
